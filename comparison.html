@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luis' Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <a href="index.html"><h2 class="text-white bg-info font-weight-bold rounded">Evolution of productivity in Mexico (1993-2013)</h2></a>
+                </div>
+                <div class="col-4">
+                    <div class="dropdown show">
+                        <a href="index.html"><button class="btn btn-sm font-weight-bold text-muted">Home</button></a>
+                        <a class="btn btn-sm btn-white dropdown-toggle font-weight-bold text-muted" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>  
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="vis_TFP.html"><small>Total Factor Productivity</small></a>
+                            <a class="dropdown-item" href="vis_Mkp.html"><small>Markups</small></a>
+                            <a class="dropdown-item" href="vis_VL.html"><small>Value Added per Worker</small></a>
+                            <a class="dropdown-item" href="vis_YL.html"><small>Revenue per worker</small></a>
+                        </div>
+                        <a href="comparison.html"><button class="btn btn-sm btn-md font-weight-bold text-muted">Comparison</button></a>
+                        <a href="data.html"><button class="btn btn-sm btn-md font-weight-bold text-muted">Data</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 bg-white">
+                    <h3 class="text-info">
+                        Comparison: Productivity variables
+                    </h3>
+                    <hr>
+                    <p>Click any plot to get an in-depth analysis.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-12 bg-white">
+                    <h6 class="text-info text-center">Total Factor Productivity</h6>
+                    <a href="vis_TFP.html">
+                        <img class="img-fluid img-thumbnail d-block mx-auto rounded" src="./img/TFP_All_M.png" alt="" width="270" height="270">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 bg-white">
+                    <h6 class="text-info text-center">Markups</h6>
+                    <a href="vis_Mkp.html">
+                        <img class="img-fluid img-thumbnail d-block mx-auto rounded" src="./img/Mkp_All_M.png" alt="" width="270" height="270">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-12 bg-white">
+                    <h6 class="text-info text-center">Value Added per Worker</h6>
+                    <a href="vis_VL.html">
+                        <img class="img-fluid img-thumbnail d-block mx-auto rounded" src="./img/VL_All_M.png" alt="" width="270" height="270">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 bg-white">
+                    <h6 class="text-info text-center">Revenue per Worker</h6>
+                    <a href="vis_YL.html">
+                        <img class="img-fluid img-thumbnail d-block mx-auto rounded" src="./img/YL_All_M.png" alt="" width="270" height="270">
+                    </a>
+                </div>
+            </div>
+    
+    <hr>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

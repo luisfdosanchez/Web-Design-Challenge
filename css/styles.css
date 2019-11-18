@@ -1,0 +1,23 @@
+body{
+    background-color: gainsboro;
+}
+
+header{
+    background-color: white;
+}
+
+p{
+    font-size:0.85rem;
+}
+
+h3{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+border {
+    border-width:4px !important;
+}
